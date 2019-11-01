@@ -28,7 +28,9 @@ public class CityList {
      *      An ArrayList of cities
      */
     public void addCities(ArrayList<City> listOfCities) {
-        // do nothing
+        for (int i = 0; i < listOfCities.size(); i++) {
+            add(listOfCities.get(i));
+        }
     }
 
     /**
