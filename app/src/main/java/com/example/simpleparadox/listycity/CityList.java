@@ -23,6 +23,15 @@ public class CityList {
     }
 
     /**
+     * This adds an arraylist of cities to the list and does not allow duplicates
+     * @param listOfCities
+     *      An ArrayList of cities
+     */
+    public void addCities(ArrayList<City> listOfCities) {
+        // do nothing
+    }
+
+    /**
      * This returns a sorted list of cities
      * @return
      *      Return the sorted list
